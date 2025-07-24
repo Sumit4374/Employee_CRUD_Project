@@ -31,7 +31,7 @@ This is a full-stack Employee Management application built with **Vite React** f
 
 1. Clone the repository and navigate to the backend folder:
     ```bash
-    cd Employee_CRUD_Poject/backend
+    cd Employee_CRUD_Poject/employee
     ```
 2. Install dependencies and run the Spring Boot application:
     ```bash
@@ -45,7 +45,7 @@ This is a full-stack Employee Management application built with **Vite React** f
 
 1. Navigate to the frontend folder:
     ```bash
-    cd Employee_CRUD_Poject/frontend
+    cd Employee_CRUD_Poject/employee_frontend
     ```
 2. Install dependencies:
     ```bash
@@ -56,6 +56,12 @@ This is a full-stack Employee Management application built with **Vite React** f
     npm run dev
     ```
 4. The frontend will be available at `http://localhost:5173`.
+
+#### Database (MySQL)
+
+1. Create a database in MySQL of your choice and Update the `application.properties` database name to your database name.
+
+2. Table in the database will be created on its own.
 
 ### Configuration
 
